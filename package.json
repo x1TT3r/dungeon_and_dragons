@@ -1,0 +1,26 @@
+{
+  "name": "dungeon_and_dragons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x1TT3r/dungeon_and_dragons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x1TT3r/dungeon_and_dragons/issues"
+  },
+  "homepage": "https://github.com/x1TT3r/dungeon_and_dragons#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  }
+}
