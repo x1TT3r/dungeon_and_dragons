@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corDeFundo;
+    transition: background-color .5s ease;
+    z-index: 1;
+    background-color: rgba(variaveis.$corDeFundo ,0.8);
+    &__container {  
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-between;
+        .header{
+            &__logo {
+                width: 240px;
+            }
+            
+        }
+    }
+}  

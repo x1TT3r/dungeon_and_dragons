@@ -1,5 +1,9 @@
-$bgColor: red;
+@use 'variaveis';
+@use 'header';
+@use 'banner';
+
 
 body {
-    background-color: $bgColor;
+    background-color: variaveis.$corDeFundo;
+    color:variaveis.$corTextoPrincipal ;
 }

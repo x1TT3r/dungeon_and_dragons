@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.container {
+    background-image: url(../images/DDdesfocada.jpg);
+    background-size:cover;
+}
+
+.banner {
+    opacity: 0.8;
+    &__container {
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        
+        .banner {
+            &__text {
+                padding-top: 10px;
+                background-color: variaveis.$corDeFundo;
+                text-align: center;
+                font-size: 30px;
+                border-bottom: 10px solid rgb(0, 0, 0);
+                border-left: 10px solid rgb(0, 0, 0);
+                border-top: 10px solid rgb(0, 0, 0);
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                margin: 50px 0px 50px 50px;
+            }
+            &__img {
+                margin: 50px 50px 50px 0px;
+                border-bottom: 10px solid rgb(0, 0, 0);
+                border-right: 10px solid rgb(0, 0, 0);
+                border-top: 10px solid rgb(0, 0, 0);
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+        }
+    }
+}
